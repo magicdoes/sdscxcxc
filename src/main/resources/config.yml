@@ -1,0 +1,58 @@
+settings:
+  animation-ticks: 60
+  roll-every-ticks: 3
+  broadcast-wins: true
+
+messages:
+  prefix: "&8[&#ff8c00Magic&6Crates&8] "
+  no-key: "&cYou do not have a %crate% key."
+  key-received: "&aYou received &f%amount%x %crate% &adigital key(s)."
+  win: "&aYou won %reward% &afrom the %crate% crate!"
+  broadcast: "&#ff8c00%player% &7won %reward% &7from the %crate% crate!"
+
+crates:
+  common:
+    name: "&fCommon"
+    icon: CHEST
+    block: WHITE_SHULKER_BOX
+    color: WHITE_STAINED_GLASS_PANE
+    rewards:
+      iron: {material: IRON_INGOT, amount: 16, weight: 35, name: "&f16x Iron Ingots"}
+      coal: {material: COAL, amount: 32, weight: 35, name: "&f32x Coal"}
+      money: {material: GOLD_INGOT, amount: 8, weight: 30, name: "&e8x Gold Ingots"}
+  uncommon:
+    name: "&aUncommon"
+    icon: ENDER_CHEST
+    block: LIME_SHULKER_BOX
+    color: LIME_STAINED_GLASS_PANE
+    rewards:
+      diamond: {material: DIAMOND, amount: 4, weight: 40, name: "&b4x Diamonds"}
+      emerald: {material: EMERALD, amount: 8, weight: 35, name: "&a8x Emeralds"}
+      xp: {material: EXPERIENCE_BOTTLE, amount: 32, weight: 25, name: "&a32x XP Bottles"}
+  rare:
+    name: "&9Rare"
+    icon: TRAPPED_CHEST
+    block: BLUE_SHULKER_BOX
+    color: BLUE_STAINED_GLASS_PANE
+    rewards:
+      diamond: {material: DIAMOND, amount: 12, weight: 45, name: "&b12x Diamonds"}
+      netherite: {material: NETHERITE_SCRAP, amount: 2, weight: 20, name: "&82x Netherite Scrap"}
+      golden_apple: {material: GOLDEN_APPLE, amount: 4, weight: 35, name: "&64x Golden Apples"}
+  amethyst:
+    name: "&#b56cffAmethyst Crate"
+    icon: AMETHYST_BLOCK
+    block: PURPLE_SHULKER_BOX
+    color: PURPLE_STAINED_GLASS_PANE
+    rewards:
+      crystals: {material: AMETHYST_SHARD, amount: 64, weight: 40, name: "&#b56cff64x Amethyst Shards"}
+      netherite: {material: NETHERITE_INGOT, amount: 2, weight: 20, name: "&82x Netherite Ingots"}
+      diamonds: {material: DIAMOND, amount: 24, weight: 40, name: "&b24x Diamonds"}
+  elite:
+    name: "&6Elite"
+    icon: BEACON
+    block: ORANGE_SHULKER_BOX
+    color: ORANGE_STAINED_GLASS_PANE
+    rewards:
+      netherite: {material: NETHERITE_INGOT, amount: 4, weight: 30, name: "&84x Netherite Ingots"}
+      enchanted_apple: {material: ENCHANTED_GOLDEN_APPLE, amount: 2, weight: 20, name: "&d2x Enchanted Golden Apples"}
+      diamond_blocks: {material: DIAMOND_BLOCK, amount: 8, weight: 50, name: "&b8x Diamond Blocks"}

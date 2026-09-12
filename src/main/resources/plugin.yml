@@ -1,0 +1,19 @@
+name: MagicCrates
+version: 1.0.0
+main: com.magicsmp.magiccrates.MagicCrates
+api-version: '1.21'
+author: MagicSMP
+description: Digital-key animated crates for MagicSMP
+commands:
+  keys:
+    description: View your digital crate keys
+    usage: /keys
+  magiccrates:
+    description: MagicCrates administration
+    usage: /magiccrates <set|remove|keys|reload>
+    aliases: [mcrates, mc]
+permissions:
+  magiccrates.admin:
+    default: op
+  magiccrates.use:
+    default: true
